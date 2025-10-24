@@ -1,0 +1,665 @@
+#hearder {
+    background-color: #eee;
+    position: sticky;
+    top: 0;
+}
+.first-hearder-container >h1 {
+    color: rgb(25, 102, 102);
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.first-hearder-container {
+    display: flex;
+    margin-left: 50px;
+}
+.img-container {
+    display: flex;
+    margin-left: 30px;
+}
+.img-container >div{
+    margin-left: 80px;
+}
+.first-img >img{
+    border-radius: 50%;
+}
+.div-containing-login {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 20px;
+}
+.contact-us > a{
+    color: rgb(92, 172, 172);
+    text-decoration: none;
+}
+.div-containing-login >div{
+    margin-left: 30px;
+    font-family:sans-serif;
+}
+.contact-us4 {
+    background-color: rgb(171, 218, 218);
+}
+.second-hearder-container {
+    display: flex;
+    margin-top: 20px;
+}
+.second-hearder-container >a {
+    margin-left: 50px;
+    color: rgb(56, 138, 138);
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+.second-hearder-container >a h4{
+    font-size: 16px;
+}
+#first-big-grid {
+    display: grid;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 100px;
+    background-color: rgb(92, 172, 172);
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px
+                            50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+.items-inside-first-big-grid1 {
+    grid-area: 3 / 6 / 11 / 20;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 233, 233);
+}
+.div-for-tobechukwu {
+    display: flex;
+    justify-content: center;
+}
+.div-for-tobechukwu >h5{
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+.container-for-justify-content-center >h2 {
+    display: flex;
+    margin-top: -10px;
+    font-size: 50px;
+    font-family: sans-serif;
+    justify-content: center;
+}
+.container-for-justify-content-center >p {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.container-for-justify-content-center >input {
+    width: 450px;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background-color: rgb(202, 233, 233);
+}
+.get-started-div1 {
+    width: 110px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(25, 102, 102);
+}
+.get-started-div1 >a{
+    color: white;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.items-inside-first-big-grid2 {
+    background-color:  rgb(184, 212, 155);
+    grid-area: 3 / 1 / 11 / 4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items-inside-first-big-grid3 {
+    background-color:rgb(202, 233, 233);
+    grid-area: 1 / 4 / 5 / 7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px;
+}
+.items-inside-first-big-grid4 {
+    grid-area: 9 / 4 / 13 / 7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px;
+    background-color:rgb(202, 233, 233);
+}
+.items-inside-first-big-grid5 {
+    grid-area: 1 / 19 / 5 / 22;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px;
+    background-color:rgb(202, 233, 233);
+}
+.items-inside-first-big-grid6 {
+    grid-area: 9 / 19 / 13 / 22;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px;
+    background-color:rgb(202, 233, 233);
+}
+.items-inside-first-big-grid7 {
+    background-color: rgb(184, 212, 155);
+    grid-area: 3 / 22 / 11 / 25;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.chat {
+    display: flex;
+}
+.chat >img {
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.chat >a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(40, 160, 160);
+}
+#second-big-container {
+    display: flex;
+    justify-content: center;
+}
+.containing-items-inside-second-big-container {
+    background-color: rgb(184, 212, 155);
+    margin-top: 100px;
+    padding: 65px 65px;
+}
+.container-for-top-writing {
+    display: flex;
+    justify-content: center;
+}
+.container-for-top-writing > h2 {
+    color: rgb(25, 102, 102);
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.div-for-get-started >p {
+    color: rgb(25, 102, 102);
+    font-family: sans-serif;
+}
+.div-for-get-started >a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;    
+}
+.get-started-div2 {
+    width: 110px;
+    border-radius: 30px;
+    padding: 10px 10px;
+    background-color: rgb(97, 175, 175);
+}
+.div-for-get-started  {
+    margin-left: 500px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+.flex-item {
+    height: 350px;
+    width: 230px;
+    background-color: rgb(97, 175, 175);
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.flex-item >img {
+    border-radius: 20px;
+}
+.containing-items-inside-second-big-container >a button {
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 50px;
+    color: rgb(3, 92, 92);
+    font-size: 15px;
+}
+#third-container {
+    padding: 80px 80px;
+    background-color: rgb(202, 233, 233);
+}
+.second-grid {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    grid-template-columns:  350px 350px 350px;
+    grid-template-rows: 150px 150px ;
+}
+.div-for-get-started2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.div-for-get-started2 >p {
+    color: rgb(97, 175, 175);
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.get-started-div3 {
+    width: 110px;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin-left: 530px;
+    margin-top: 10px;
+    background-color: rgb(97, 175, 175);
+}
+.div-for-get-started2 >a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.second-grid >div{
+    background-color: rgb(184, 212, 155);
+    border-radius: 40px;
+}
+.items-inside-second-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.writing-div-inside-items-inside-second-grid >h3 {
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(4, 109, 109);
+}
+.writing-div-inside-items-inside-second-grid >p {
+    font-family: sans-serif;
+    color: rgb(66, 146, 146);
+}
+#fourth-container {
+    display: flex;
+    justify-content: center;
+}
+.fourth-container-display-flex {
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+    margin-top: 50px;
+    background-color: rgb(184, 212, 155);
+}
+.first-div-under-it2 {
+    margin-left: 100px;
+}
+.first-div-under-it >h2{
+    /* color: ; */
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgb(4, 109, 109);
+}
+.first-div-under-it >a {
+    text-decoration: none;
+}
+.get-started-div4 {
+    width: 110px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(41, 110, 110);
+}
+.first-writing-in-first-div-under-it >h5 {
+    color: rgb(4, 109, 109);
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.first-writing-in-first-div-under-it >p {
+    color: rgb(4, 109, 109);
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.first-writing-in-first-div-under-it {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+#fifth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-for-flex {
+    background-color: rgb(202, 233, 233);
+    margin-top: 50px;
+    padding: 50px 50px;
+}
+.h2-writing {
+    color: rgb(4, 109, 109);
+    display: flex;
+    justify-content: center;
+}
+.normal-writing {
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 109, 109);
+}
+.div-for-get-started3 {
+    color: white;
+    width: 180px;
+    margin-left: 350px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(4, 109, 109);
+}
+.div-for-get-started3 >a {
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+.link-under {
+    width: 260px;
+    margin-left: 330px;
+    margin-top: 30px;
+    border-bottom: 2px dotted black;
+}
+.container-for-flex >a {
+    text-decoration: none;
+}
+#footer-div {
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    margin-top: 80px;
+    padding: 50px 50px;
+}
+#footer-div >div {
+    height: 400px;
+    width: 250px;
+}
+#footer-div >div a {
+    display: block;
+    color: rgb(4, 109, 109);
+    padding: 3px 3px;
+    text-decoration: none;
+}
+#footer-div >div h4 {
+    color: rgb(4, 109, 109);
+}
+
+
+
+
+
+.p-class {
+    display: none;
+}
+.explore {
+    display: none;
+}
+.container-for-flex2 {
+        display: none;
+    }
+
+
+
+
+
+@media (max-width:306px) {
+    #hearder {
+        display: none;
+    }
+    #first-big-grid {
+        display: block;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .the-small-item {
+        display: none;
+    }
+    .the-big-item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .the-big-item >h3{
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .the-big-item >h5{
+        font-family: sans-serif;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    .container-for-justify-content-center >h2 {
+        display: flex;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .p-class {
+        margin-left: 10px;
+        display: block;
+    }
+    .container-for-justify-content-center >p {
+        display: none;
+    }
+    .container-for-justify-content-center >input {
+        width: 180px;
+        margin-left: 0px;
+        background-color: rgb(202, 233, 233);
+    }
+    .explore {
+        width: 190px;
+        /* margin-left: 50px; */
+        display: block;
+        background-color: #a59191;
+        padding: 5px 5px;
+        margin-top: 20px;
+        padding-left: 50px;
+        color: rgb(4, 109, 109);
+        font-family: sans-serif;
+    }
+    .explore >p {
+        margin-left: 30px;
+    }
+    #second-big-container {
+    display: block;
+}
+    .containing-items-inside-second-big-container {
+        padding: 0;
+        margin-top: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .container-for-top-writing {
+        display: block;
+    }
+    .flex-container {
+        display: block;
+    }
+    .flex-item {
+        margin-left: 20px;
+    }
+    .div-for-get-started {
+        margin-left: 0;
+    }
+    .flex-item {
+        margin-top: 10px;
+    }
+    .containing-items-inside-second-big-container >a button {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .second-grid {
+        display: block;
+        justify-content: end;
+    }
+    .div-for-get-started3 {
+        margin-left: 0;
+    }
+    .fourth-container-display-flex {
+        display: block;
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+    .first-div-under-it2 {
+        margin-left: 0;
+    }
+    .container-for-flex {
+        display: none;
+    }
+    .container-for-flex2 {
+        display: block;
+        margin-top: 30px;
+        padding: 20px 20px;
+        background-color: rgb(202, 233, 233);
+    }
+    .div-for-get-started3 {
+        margin-left: 50px;
+    }
+    .link-under {
+        margin-left: 10px;
+    }
+
+
+    #footer-div {
+        display: block;
+    }
+    
+    
+#third-container {
+    padding: 10px;
+    height: 1050px;
+    margin-top: 50px;
+}
+.get-started-div3 {
+    margin-left: 0;
+}
+.div-for-get-started2 {
+    display: block;
+}
+.second-grid {
+    height: 380px;
+    width: 250px;
+}
+.second-grid >div {
+    border-radius: 1px;
+}
+.items-inside-second-grid {
+    margin-top: 10px;
+}
+.writing-div-inside-items-inside-second-grid >h3 {
+    font-size: 15px;
+    margin-left: 20px;
+}
+.writing-div-inside-items-inside-second-grid >p {
+    font-size: 14px;
+}
+
+
+
+
+}
+
+
+
+
+
+/* #third-container {
+    padding: 80px 80px;
+    background-color: rgb(202, 233, 233);
+}
+    
+.second-grid {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    grid-template-columns:  350px 350px 350px;
+    grid-template-rows: 150px 150px ;
+}
+.div-for-get-started2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.div-for-get-started2 >p {
+    color: rgb(97, 175, 175);
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.get-started-div3 {
+    width: 110px;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin-left: 530px;
+    margin-top: 10px;
+    background-color: rgb(97, 175, 175);
+}
+.div-for-get-started2 >a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.second-grid >div{
+    background-color: rgb(184, 212, 155);
+    border-radius: 40px;
+}
+.items-inside-second-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.writing-div-inside-items-inside-second-grid >h3 {
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(4, 109, 109);
+}
+.writing-div-inside-items-inside-second-grid >p {
+    font-family: sans-serif;
+    color: rgb(66, 146, 146);
+} */
+
+
+
+
+
+/* aqua
+rgb(235, 243, 243)
+rgb(202, 233, 233)
+rgb(171, 218, 218)
+rgb(141, 201, 201)
+rgb(124, 196, 196)
+rgb(97, 175, 175) 
+rgb(76, 156, 156)
+rgb(56, 138, 138)
+rgb(39, 119, 119)
+rgb(25, 102, 102)
+rgb(13, 75, 75)
+rgb(6, 58, 58)
+rgb(1, 44, 44)
+chartreuse
+rgb(233, 243, 223)
+rgb(208, 228, 188)
+rgb(184, 212, 155)
+rgb(159, 192, 124)
+rgb(131, 168, 92)
+rgb(129, 179, 77)
+rgb(132, 199, 61
+rgb(120, 196, 39)
+rgb(94, 165, 17)
+rgb(62, 112, 9)
+rgb(39, 71, 3)
+*/
